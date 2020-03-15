@@ -1,0 +1,4 @@
+# Project exclude paths
+/classLoader/target/
+/openJDK-8/target/
+/reflect/target/
