@@ -6,7 +6,7 @@ package com.why.thread;
  * 2.建议使用标志位，设置一个标志位
  * 3.不要使用stop或destroy等过时或者JDK不建议使用的方法
  */
-public class TestStop implements Runnable{
+public class _01_TestStop implements Runnable{
 
     private boolean flag = true;
 
@@ -24,7 +24,7 @@ public class TestStop implements Runnable{
     }
 
     public static void main(String[] args) {
-        TestStop testStop = new TestStop();
+        _01_TestStop testStop = new _01_TestStop();
         new Thread(testStop).start();
         for(int i = 0;i<1000;i++){
             System.out.println("main"+i);

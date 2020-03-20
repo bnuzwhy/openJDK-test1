@@ -7,7 +7,7 @@ import java.util.Date;
  * 线程休眠
  * 每一个对象都有一把锁，sleep不会释放锁
  */
-public class TestSleep2 {
+public class _03_TestSleep2 {
     public static void main(String[] args) {
         //tenDown();
         getCurrentTime();

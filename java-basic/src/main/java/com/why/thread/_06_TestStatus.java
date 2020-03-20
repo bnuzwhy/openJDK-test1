@@ -11,7 +11,7 @@ package com.why.thread;
  *
  * 注：死亡的线程是不能重新启动的
  */
-public class TestStatus {
+public class _06_TestStatus {
     public static void main(String[] args) {
         Thread thread = new Thread(() -> {
             for (int i = 0; i < 5; i++) {

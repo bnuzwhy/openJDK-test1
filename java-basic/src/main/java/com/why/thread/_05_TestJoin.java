@@ -3,7 +3,7 @@ package com.why.thread;
 /**
  * 测试join方法  想象为插队
  */
-public class TestJoin implements Runnable{
+public class _05_TestJoin implements Runnable{
     @Override
     public void run() {
         for(int i = 0;i<1000;i++){
@@ -12,7 +12,7 @@ public class TestJoin implements Runnable{
     }
 
     public static void main(String[] args) throws InterruptedException {
-        TestJoin testJoin = new TestJoin();
+        _05_TestJoin testJoin = new _05_TestJoin();
         Thread thread = new Thread(testJoin);
         thread.start();
 

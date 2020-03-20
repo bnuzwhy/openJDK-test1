@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="openJDK-10" />
-        <module name="openJDK-12" />
+        <module name="openJDK-9" />
         <module name="classLoader" />
         <module name="java-basic" />
         <module name="openJDK-14" />
         <module name="openJDK-13" />
+        <module name="openJDK-12" />
         <module name="openJDK-11" />
-        <module name="openJDK-9" />
+        <module name="openJDK-10" />
         <module name="openJDK-8" />
         <module name="reflect" />
       </profile>

@@ -3,7 +3,7 @@ package com.why.thread;
 /**
  * 模拟网络延时 : 放大问题的发生性
  */
-public class TestSleep1 implements Runnable{
+public class _02_TestSleep1 implements Runnable{
 
     private int ticketNums = 10;
 
@@ -23,7 +23,7 @@ public class TestSleep1 implements Runnable{
     }
 
     public static void main(String[] args) {
-        TestSleep1 ticket = new TestSleep1();
+        _02_TestSleep1 ticket = new _02_TestSleep1();
         new Thread(ticket,"AAA").start();
         new Thread(ticket,"BBB").start();
         new Thread(ticket,"CCC").start();
