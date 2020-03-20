@@ -6,7 +6,7 @@ package com.why.thread;
  * 将线程从运行状态转为就绪状态
  * 让cpu重新调度，礼让不一定成功！看CPU心情
  */
-public class TestYield {
+public class _04_TestYield {
     public static void main(String[] args) {
         MyYield myYield = new MyYield();
         new Thread(myYield,"A").start();
