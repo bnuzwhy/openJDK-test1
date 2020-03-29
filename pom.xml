@@ -19,14 +19,18 @@
         <module>openJDK-12</module>
         <module>openJDK-13</module>
         <module>openJDK-14</module>
+        <module>juc</module>
     </modules>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
-            <artifactId>Lombok</artifactId>
-            <version>1.18.10</version>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
