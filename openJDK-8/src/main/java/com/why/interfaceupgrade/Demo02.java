@@ -9,7 +9,7 @@ public interface Demo02 {
     }
 
     static void test03(){
-        System.out.println("静态方法");
+        System.out.println("静态 方法");
     }
 }
 
